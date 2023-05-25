@@ -73,7 +73,7 @@ repo.heads[ACTIVE_BRANCH_NAME].checkout(True) ')
 
 _set_bot () {
     local zippath
-    zippath="moh.zip"
+    zippath="SAA.zip"
     echo "جاري تنزيل اكواد السورس "
     wget -q $(_get_ziplink) -O "$zippath"
     echo " تفريغ البيانات "
@@ -92,7 +92,7 @@ _set_bot () {
     echo "
 
     "
-    python3 -m SSA
+    python3 -m jmub
 }
 
 _set_bot
